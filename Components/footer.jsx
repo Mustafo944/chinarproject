@@ -7,7 +7,7 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="bg-black max-md:pb-[300px]">
+    <div className="bg-black max-md:pb-[100px]">
       <div className="max-w-7xl mx-auto">
         <div
           className="max-md:flex-col pb-3 flex md:gap-20 justify-around"
