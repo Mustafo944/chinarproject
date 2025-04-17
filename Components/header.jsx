@@ -87,7 +87,7 @@ export default function Header() {
       <div
   className={`
     md:hidden absolute top-0 left-0 right-0 mx-auto
-    bg-[#68676a2d] text-white shadow-md rounded w-[370px] h-[300px]
+    bg-[#68676a2d] text-white shadow-md rounded w-[350px] h-[300px]
     flex justify-center transition-all duration-500 ease-in-out
     transform
     ${active ? 'translate-x-0 opacity-100 pointer-events-auto' : '-translate-x-10 opacity-0 pointer-events-none'}
