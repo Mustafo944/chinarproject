@@ -87,13 +87,13 @@ export default function Header() {
       <div
   className={`
     md:hidden absolute top-0 left-0 right-0 mx-auto
-    bg-[#68676a2d] text-white shadow-md rounded w-[378px] h-[300px]
+    bg-[#68676a2d] text-white shadow-md rounded w-[370px] h-[300px]
     flex justify-center transition-all duration-500 ease-in-out
     transform
     ${active ? 'translate-x-0 opacity-100 pointer-events-auto' : '-translate-x-10 opacity-0 pointer-events-none'}
   `}
 >
-  <ul className="flex flex-col justify-center relative gap-4 mt-10 text-lg font-semibold text-center">
+  <ul className="flex flex-col justify-center relative gap-4 text-lg font-semibold text-center text-white">
     <li><a href="#about">О нас</a></li>
     <li><a href="#menu">Меню</a></li>
     <li><a href="#gallery">Галерея</a></li>
@@ -102,7 +102,7 @@ export default function Header() {
   </ul>
   <div
     onClick={() => setActive(false)}
-    className="absolute right-3 top-2 text-3xl text-[#fbf7f4] font-bold cursor-pointer"
+    className="absolute right-5 top-2 text-2xl text-[#fbf7f4] font-bold cursor-pointer"
   >
     X
   </div>
